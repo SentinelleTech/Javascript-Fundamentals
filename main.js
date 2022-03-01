@@ -1,4 +1,6 @@
-console.log('Hello World');
+const s = 'Hello World';
+
+console.log(s);
 console.error('This is an ERROR!');
 
 /*Javascript variables
@@ -36,3 +38,13 @@ console.log('My Name is: ' + fullName + ' and my age is: ' + legalAge);
 
 //with ES6 we get TEMPLATE STRINGS
 console.log(`my name is ${fullName} and my age is ${legalAge}`);
+
+//String functions
+
+console.log(s.length);
+console.log(s.toUpperCase());
+console.log(s.substring(0, 5));
+console.log(s.substring(0, 5).toUpperCase());
+
+console.log(s.split(''));
+
